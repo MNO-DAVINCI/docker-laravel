@@ -16,8 +16,8 @@
 #     mysql -u root -p < /docker-entrypoint-initdb.d/createdb.sql
 #
 
-CREATE DATABASE IF NOT EXISTS `project-mpa` COLLATE 'utf8_general_ci' ;
-GRANT ALL ON `project-mpa`.* TO 'default'@'%' ;
+#CREATE DATABASE IF NOT EXISTS `project-mpa` COLLATE 'utf8_general_ci' ;
+#GRANT ALL ON `project-mpa`.* TO 'default'@'%' ;
 
 #CREATE DATABASE IF NOT EXISTS `dev_db_2` COLLATE 'utf8_general_ci' ;
 #GRANT ALL ON `dev_db_2`.* TO 'default'@'%' ;
